@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-family: 'Poppins', sans-serif;
+}
+body{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	background: url('bg.jpg');
+	background-size: cover;
+}
+.wrapper{
+	background: #fff;
+	width: 450px;
+	box-shadow: 7px 10px 12px 4px rgb(0 0 0 / 30%), -7px -10px 14px 5px rgb(0 0 0 / 30%);
+	border-radius: 16px;
+}
+.js-tilt-glare{
+	border-radius: 16px;
+}
+/* form */
+.form{
+	padding: 25px 30px;
+}
+.form header{
+	font-size: 25px;
+	font-weight: 600;
+	border-bottom: 1px solid #e6e6e6;
+	padding-bottom: 10px;
+}
+.form form{
+	margin: 20px 0;
+}
+.form form .error-txt{
+	color: #721c24;
+	background: #f8d7da;
+	padding: 8px 10px;
+	text-align: center;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	border: 1px solid #f5c6cb;
+	display: none;
+}
+.form form .name-details{
+	display: flex;
+}
+form .name-details .field:first-child{
+	margin-right: 10px;
+}
+form .name-details .field:last-child{
+	margin-left: 10px;
+}
+.form form .field{
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 10px;
+	position: relative;
+}
+.form form .field label{
+	margin-bottom: 2px;
+}
+.form form .input input{
+	height: 40px;
+	width: 100%;
+	font-size: 16px;
+	padding: 0 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+.form form .field input{
+	outline: none;
+}
+.form form .image input{
+	font-size: 17px;
+}
+.form form .field i{
+	position: absolute;
+	right: 15px;
+	color: #ccc;
+	top: 70%;
+	transform: translateY(-50%);
+	cursor: pointer;
+}
+.form form .field i.active::before{
+	content: "\f070";
+	color: #333;
+}
+.form form .button input{
+	margin-top: 13px;
+	height: 45px;
+	border: none;
+	font-size: 17px;
+	font-weight: 400;
+	background: #1AD5DC;
+	color: #333;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: .5s ease-in-out;
+}
+.form form .button input:hover{
+	background: #333;
+	color: #1AD5DC;
+}
+.form .link{
+	text-align: center;
+	margin: 10px 0;
+	font-size: 17px;
+}
+.form .link a{
+	color: #333;
+}
+.form .link a:hover{
+	text-decoration: underline;
+}
+/* users */
+.users{
+	padding: 25px 30px;
+}
+.users header,
+.users-list a{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border: 1px solid transparent;
+	padding-bottom: 20px;
+}
+.wrapper img{
+	object-fit: cover;
+	border-radius: 50%;
+}
+:is(.users,.users-list) .content{
+	display: flex;
+	align-items: center;
+}
+.users header .content img{
+	height: 50px;
+	width: 50px;
+}
+:is(.users,.users-list) .details{
+	margin-left: 15px;
+	color: #000;
+}
+:is(.users,.users-list) .details span{
+	font-size: 18px;
+	font-weight: 500;
+}
+.users header .logout:hover{
+	background: #333;
+	color: #1AD5ff;
+}
+.users header .logout{
+	transition: .5s ease-in-out;
+	background: #1AD5ff;
+	color: #333;
+	padding: 7px 15px;
+	font-size: 17px;
+	border-radius: 5px;
+}
+.users .search{
+	margin: 20px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	position: relative;
+}
+.users .search .text{
+	font-size: 18px;
+}
+.users .search input{
+	opacity: 0;
+	pointer-events: none;
+	transition: all 0.3s ease;
+	position: absolute;
+	height: 42px;
+	width: calc(100% - 50px);
+	border: 1px solid #ccc;
+	padding: 0 13px;
+	font-size: 16px;
+	border-radius: 5px 0 0 5px;
+	outline: none;
+}
+.users .search input.active{
+	opacity: 1;
+	pointer-events: auto;
+}
+.users .search button{
+	width: 47px;
+	height: 42px;
+	border: none;
+	outline: none;
+	color: #333;
+	background: #fff;
+	border-radius: 0 5px 5px 0;
+	cursor: pointer;
+	font-size: 17px;
+}
+.users .search button.active{
+	color: #fff;
+	background: #333;
+	transition: all 0.3s ease;
+}
+.users .search button.active i::before{
+	content: "\f00d";
+}
+.users-list{
+	max-height: 350px;
+	overflow-y: auto;
+}
+.users-list a{
+	padding-right: 15px;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	border-bottom-color: #f1f1f1;
+}
+:is(.users-list,.chat-box)::-webkit-scrollbar{
+	width: 0;
+}
+.users-list a:last-child{
+	border: none;
+	margin-bottom: 0px;
+}
+.users-list a .content img{
+	height: 40px;
+	width: 40px;
+}
+.users-list a .content p{
+	color: #67676a;
+}
+.users-list a .status-dot{
+	font-size: 12px;
+	color: #468449;
+}
+.users-list a .status-dot.offline{
+	color: #ccc;
+}
+/* chat */
+.chat-area{
+	transform-style: preserve-3d;
+	transform: perspective(1000px);
+}
+.chat-area header{
+	display: flex;
+	align-items: center;
+	padding: 18px 30px;
+}
+.chat-area header img{
+	height: 45px;
+	width: 45px;
+	margin: 0 15px;
+}
+.chat-area header .back-icon{
+	font-size: 18px;
+	color: #5fa8f2;
+}
+.chat-area header span{
+	font-size: 17px;
+	font-weight: 500;
+}
+.chat-box{
+	overflow-y: auto;
+	height: 500px;
+	background: #f7f7f7;
+	padding: 10px 30px 20px 30px;
+	box-shadow: inset 0 32px 32px -32px rgb(0 0 0 / 5%),
+				inset 0 -32px 32px -32px rgb(0 0 0 / 5%);
+}
+.chat-box .chat{
+	margin: 15px 0;
+}
+.chat-box .chat p{
+	word-wrap: break-word;
+	padding: 8px 16px;
+	box-shadow: 0 0 32px rgb(0, 0, 0 / 8%),
+				0 16px 16px -16px rgb(0,0,0/10%);
+}
+.chat-box .outgoing{
+	display: flex;
+}
+.outgoing .details{
+	margin-left: auto;
+	max-width: calc(100% - 130px);
+}
+.outgoing .details p{
+	background: #5fa8f2;
+	color: #fff;
+	border-radius: 18px 18px 0 18px;
+	box-shadow: inset 2px 2px 10px rgba(0, 0, 0, .3);
+}
+.chat-box .incoming{
+	display: flex;
+	align-items: flex-end;
+	transform: translateZ(20px);
+}
+.chat-box .incoming img{
+	height: 35px;
+	width: 35px;
+}
+.incoming .details{
+	margin-left: 10px;
+	margin-right: auto;
+	max-width: calc(100% - 130px);
+}
+.incoming .details p{
+	background: #fff;
+	color: #333;
+	border-radius: 18px 18px 18px 0;
+	box-shadow: inset 2px 2px 10px rgba(0, 0, 0, .3);
+}
+.chat-area .typing-area{
+	padding: 18px 30px;
+	display: flex;
+	justify-content: space-between;
+}
+.typing-area input{
+	height: 45px;
+	width: calc(100% - 58px);
+	font-size: 17px;
+	border: 1px solid #ccc;
+	padding: 0 13px;
+	border-radius: 10px 0 0 10px;
+	outline: none;
+}
+.typing-area button{
+	width: 55px;
+	border: none;
+	outline: none;
+	border-radius: 0 10px 10px 0;
+	background: #333;
+	color: #fff;
+	font-size: 19px;
+	cursor: pointer;
+}

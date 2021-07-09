@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+	<title>Dhaan: The joy of Giving</title>
+</head>
+<body>
+	<header id="header">
+		<img src="img/logo.png">
+		<a href="#" class="logo" id="logo">Dhaan</a>
+		<div id="toggle"></div>
+		<div id="navbar">
+			<ul>
+				<li><a href="#home">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#ngo">NGOs</a></li>
+				<li><a href="#donate">Donate</a></li>
+				<li><a href="DChat/index.php">Message</a></li>
+				<li><a href="#contact">Contact Us</a></li>
+			</ul>
+		</div>
+	</header>
+	<section id="home">
+		<div class="info">
+			<svg viewBox="0 0 1280 1024">
+				<filter id="displacementFilter">
+					<feTurbulence type="turbulence" baseFrequency="0" numOctaves="0" result="turbulence"/>
+					<feDisplacementMap in2="turbulence" in="SourceGraphic" scale="100" xChannelSelector="R" yChannelSelector="G"/>
+				</filter>
+				<ellipse id="s1" style="filter: url(#displacementFilter); transform-origin: center;" fill="#9051ff" cx="690.2" cy="527.5" rx="377.5" ry="297.5"/>
+			</svg>
+
+			<h1 id="ttext" class="ttext">Dhaan: The Joy of Giving.</h1>
+			<p>A NGO Driven Initiative!</p>
+		</div>
+		<div class="mod">
+			<model-viewer id="happy" src="3D-models/happy/scene.gltf" camera-controls auto-rotate poster="img/logo.png" disable-zoom shadow-intensity="1"></model-viewer>
+		</div>
+	</section>
+	<section id="about">
+		<div class="wrapper">
+			<svg x="0px" y="0px" viewBox="0 0 288 288">
+			<linearGradient id="PSgrad_0" x1="70.711%" x2="0%" y1="70.711%" y2="0%">
+			  <stop offset="0%" stop-color="rgb(95,54,152)" stop-opacity="1" />
+			  <stop offset="100%" stop-color="rgb(247,109,138)" stop-opacity="1" />
+			</linearGradient>
+			<path fill="url(#PSgrad_0)">
+
+				<animate  repeatCount="indefinite" attributeName="d" dur="3s"
+				
+				values="M37.5,186c-12.1-10.5-11.8-32.3-7.2-46.7c4.8-15,13.1-17.8,30.1-36.7C91,68.8,83.5,56.7,103.4,45
+				c22.2-13.1,51.1-9.5,69.6-1.6c18.1,7.8,15.7,15.3,43.3,33.2c28.8,18.8,37.2,14.3,46.7,27.9c15.6,22.3,6.4,53.3,4.4,60.2
+				c-3.3,11.2-7.1,23.9-18.5,32c-16.3,11.5-29.5,0.7-48.6,11c-16.2,8.7-12.6,19.7-28.2,33.2c-22.7,19.7-63.8,25.7-79.9,9.7
+				c-15.2-15.1,0.3-41.7-16.6-54.9C63,186,49.7,196.7,37.5,186z;
+				
+				
+				M51,171.3c-6.1-17.7-15.3-17.2-20.7-32c-8-21.9,0.7-54.6,20.7-67.1c19.5-12.3,32.8,5.5,67.7-3.4C145.2,62,145,49.9,173,43.4
+				c12-2.8,41.4-9.6,60.2,6.6c19,16.4,16.7,47.5,16,57.7c-1.7,22.8-10.3,25.5-9.4,46.4c1,22.5,11.2,25.8,9.1,42.6
+				c-2.2,17.6-16.3,37.5-33.5,40.8c-22,4.1-29.4-22.4-54.9-22.6c-31-0.2-40.8,39-68.3,35.7c-17.3-2-32.2-19.8-37.3-34.8
+				C48.9,198.6,57.8,191,51,171.3z;
+				
+				M37.5,186c-12.1-10.5-11.8-32.3-7.2-46.7c4.8-15,13.1-17.8,30.1-36.7C91,68.8,83.5,56.7,103.4,45
+				c22.2-13.1,51.1-9.5,69.6-1.6c18.1,7.8,15.7,15.3,43.3,33.2c28.8,18.8,37.2,14.3,46.7,27.9c15.6,22.3,6.4,53.3,4.4,60.2
+				c-3.3,11.2-7.1,23.9-18.5,32c-16.3,11.5-29.5,0.7-48.6,11c-16.2,8.7-12.6,19.7-28.2,33.2c-22.7,19.7-63.8,25.7-79.9,9.7
+				c-15.2-15.1,0.3-41.7-16.6-54.9C63,186,49.7,196.7,37.5,186z	"/>
+
+				</path>
+
+			</svg>
+		</div>
+		<div class="wwd">
+			<img src="img/splash.png">
+			<h1>What We Do?</h1>
+			<p id="wwd">There are many NGOs available in our state but many of us don't know that they even exists and if they do then how to contact them. This is where we come in. We bridge the gap between the NGOs and the people by providing a platform which has all the details of all the NGOs availaible, where they are and how to contact them in case if you are planning in donating something! </p>
+		</div>
+		<div class="wwdm">
+			<model-viewer id="love" src="3D-models/love/scene.gltf" camera-controls auto-rotate poster="img/logo.png" disable-zoom shadow-intensity="1"></model-viewer>
+		</div>
+	</section>
+	<section id="ngo">
+		<img class="idle1" src="img/shirt.png">
+		<img class="idle2" src="img/pants.png">
+		<img class="idle3" src="img/donate.png">
+		<div class="head">
+			<h1 id="ntext">Listed NGOs</h1>
+		</div>
+		<div class="container">
+			<div class="box" data-tilt data-tilt-scale="1.2">
+				<img src="img/goonj.png" alt="">
+				<h1>Goonj</h1>
+			</div>
+			<div class="box" data-tilt data-tilt-scale="1.2">
+				<img src="img/sangarsh.jpg" alt="">
+				<h1>Green Cross</h1>
+			</div>
+			<div class="box" data-tilt data-tilt-scale="1.2">
+				<img src="img/sangarshtwo.png" alt="">
+				<h1>Sangarsh</h1>
+			</div>
+			<div class="box" data-tilt data-tilt-scale="1.2">
+				<img src="img/satguru.png" alt="">
+				<h1>Satguru</h1>
+			</div>
+			<div class="box" data-tilt data-tilt-scale="1.2">
+				<img src="img/sethu2.png" alt="">
+				<h1>Sethu</h1>
+			</div>
+			<div class="box" data-tilt data-tilt-scale="1.2">
+				<img src="img/sangath.png" alt="">
+				<h1>Sangath</h1>
+			</div>
+		</div>
+	</section>
+	<section id="donate">
+		<div class="wcd">
+			<img src="img/wwd.png" alt="">
+			<h1>Who Can Donate?</h1>
+			<p id="dtext" class="dtext">Anyone, may it be man/woman or any company can donate from anywhere in Goa. All you've to do is contact the nearest NGO and they'll send their volunteer to pick up the items!</p>
+		</div>
+		<div class="wcdm">
+			<model-viewer src="3D-models/people/scene.gltf" id="people" interpolation-decay="200" poster="img/logo.png" disable-zoom shadow-intensity="1"></model-viewer>
+		</div>
+	</section>
+	<footer id="contact">
+		<div class="container">
+			<div class="sec aboutus">
+				<h2>About Us</h2>
+				<p>We bridge the gap between the NGOs and the people by providing a platform which has all the details of all the NGOs availaible, where they are and how to contact them in case if you are planning in donating something!</p>
+				<ul class="sci">
+				<li><a href=""><i class="fab fa-facebook"></i></a></li>
+				<li><a href=""><i class="fab fa-instagram"></i></a></li>
+				<li><a href=""><i class="fab fa-twitter"></i></a></li>
+				<li><a href=""><i class="fab fa-youtube"></i></a></li>
+			</ul>
+			</div>
+			<div class="sec qlinks">
+				<h2>Quick Links</h2>
+				<ul>
+					<li><a href="">Home</a></li>
+					<li><a href="">About Us</a></li>
+					<li><a href="">NGOs</a></li>
+					<li><a href="">Donate</a></li>
+					<li><a href="">Message</a></li>
+					<li><a href="">Contact Us</a></li>
+				</ul>
+			</div>
+			<div class="sec contact">
+				<h2>Contact Info</h2>
+				<ul class="info">
+					<li>
+						<span><i class="fas fa-map-marker-alt"></i></span>
+						<span>Cozy Apartments <br>
+							Vasco, Goa 403802, <br>India</span>
+					</li>
+					<li>
+						<span><i class="fas fa-phone-alt"></i></span>
+						<p><a href="tel:+919503245740">+91 9503245740</a></p>
+					</li>
+					<li>
+						<span><i class="fas fa-envelope"></i></span>
+						<p><a href="mailto:dhaan.donate@gmail.com">dhaan.donate@gmail.com</a></p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+	<div class="copyright">
+		<p>Copyright &copy; 2021 Dhaan. All Rights Reserved.</p>
+	</div>
+	<!-- scripts -->
+	<script type="text/javascript" src="vanilla-tilt.js"></script>
+	<script type="text/javascript" src="anime.min.js"></script>
+	<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+	<!-- scripts end -->
+	<script type="text/javascript">
+		let tl = anime.timeline({
+			duration: 10000,
+			easing: 'easeOutInQuad',
+			loop: true,
+			direction: 'alternate'
+		})
+		tl.add({
+			targets: ["#s1",'feTurbulence','feDisplacementMap'],
+			baseFrequency: 0.05,
+			numOctaves: 2 
+		});
+		(() => {
+		  const modelViewer = document.querySelector('#people');
+		  const orbitCycle = [
+		    '45deg 55deg',
+		    '-60deg 110deg',
+		    modelViewer.cameraOrbit
+		  ];
+
+		  setInterval(() => {
+		    const currentOrbitIndex = orbitCycle.indexOf(modelViewer.cameraOrbit);
+		    modelViewer.cameraOrbit =
+		        orbitCycle[(currentOrbitIndex + 1) % orbitCycle.length];
+		  }, 3000);
+		})();
+	</script>
+	<!-- modules -->
+	<script type="module">
+import Letterize from "https://cdn.skypack.dev/letterizejs@2.0.0";
+const test = new Letterize({
+      targets: "#wwd"
+    });
+
+    const animation = anime.timeline({
+        targets: test.listAll,
+        delay: anime.stagger(10, {
+          grid: [test.list[0].length, test.list.length],
+          from: "center"
+        }),
+        loop: true,
+        direction: 'alternate'
+      });
+
+      animation
+        .add({
+          color: "#fff"
+        })
+        .add({
+          color: "#000"
+        });
+</script>
+<script type="module">
+import Letterize from "https://cdn.skypack.dev/letterizejs@2.0.0";
+const test = new Letterize({
+      targets: "#ttext",
+      className: "ttext"
+    });
+
+    var animation = anime.timeline({
+      targets: test.listAll,
+      delay: anime.stagger(100),
+      loop: true,
+      direction: 'alternate'
+    });
+
+    animation
+      .add({
+        scale: 0.5,
+        letterSpacing: '0px'
+      })
+      .add({
+        scale: 1,
+        letterSpacing: '1px'
+      });
+</script>
+<script type="module">
+import Letterize from "https://cdn.skypack.dev/letterizejs@2.0.0";
+const test = new Letterize({
+      targets: "#ntext",
+      className: "ttext"
+    });
+
+    var animation = anime.timeline({
+      targets: test.listAll,
+      delay: anime.stagger(100),
+      loop: true,
+      direction: 'alternate',
+      duration: 2000
+    });
+
+    animation
+      .add({
+        rotateX: 0
+      })
+      .add({
+        rotateX: 360
+      });
+</script>
+<script type="module">
+import Letterize from "https://cdn.skypack.dev/letterizejs@2.0.0";
+const test = new Letterize({
+      targets: "#dtext",
+      className: "dtext"
+    });
+
+    const animation = anime.timeline({
+        targets: test.listAll,
+        delay: anime.stagger(10, {
+          grid: [test.list[0].length, test.list.length],
+          from: "center"
+        }),
+        loop: true,
+        direction: 'alternate'
+      });
+
+      animation
+        .add({
+          color: "#fff"
+        })
+        .add({
+          color: "#000"
+        });
+</script>
+	<!-- modules end -->
+</body>
+</html>

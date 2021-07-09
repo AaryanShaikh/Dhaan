@@ -1,0 +1,15 @@
+vectory -> create 3d objects
+convert 3d -> converting fbx to gltf/glb
+anime js -> svg morphing
+js -> main language for interface
+html -> web application
+css -> style,animation,transition
+ajax -> send and recieve the data asynchronosly
+php -> access the database from the web
+mysql -> the db
+
+we've a database where everything is stored. php will be used to access the data from the db and will be synced aynchronosly with the help of ajax in json format back to js which will 
+be displayed in HTML format using css animation and transition.
+
+json.stringify ->  encoding
+json_decode -> decoding

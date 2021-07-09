@@ -1,0 +1,371 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 9200,
+      "max": [
+        2.8799235820770264,
+        5.0232768058776855,
+        0.88240718841552734
+      ],
+      "min": [
+        -2.2386071681976318,
+        0.0062131937593221664,
+        -0.91021835803985596
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 110400,
+      "componentType": 5126,
+      "count": 9200,
+      "max": [
+        0.99999374151229858,
+        0.99995869398117065,
+        0.9999992847442627
+      ],
+      "min": [
+        -0.99999439716339111,
+        -1,
+        -0.99997824430465698
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 9200,
+      "max": [
+        0.9999997615814209,
+        0.99904376268386841,
+        0.9999663233757019,
+        1
+      ],
+      "min": [
+        -0.99905091524124146,
+        -0.99984890222549438,
+        -0.99974071979522705,
+        1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 9200,
+      "max": [
+        0.99088722467422485,
+        0.98260486125946045
+      ],
+      "min": [
+        0.0068542542867362499,
+        0.018247097730636597
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 51060,
+      "max": [
+        9199
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 220800,
+      "componentType": 5126,
+      "count": 7800,
+      "max": [
+        2.9331643581390381,
+        5.063331127166748,
+        0.89953488111495972
+      ],
+      "min": [
+        -2.2804024219512939,
+        -0.033896178007125854,
+        -0.95103710889816284
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 314400,
+      "componentType": 5126,
+      "count": 7800,
+      "max": [
+        0.99961084127426147,
+        0.99992847442626953,
+        0.99997806549072266
+      ],
+      "min": [
+        -0.99983018636703491,
+        -0.99969804286956787,
+        -1
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 147200,
+      "componentType": 5126,
+      "count": 7800,
+      "max": [
+        1,
+        0.99743825197219849,
+        0.99992543458938599,
+        -1
+      ],
+      "min": [
+        -0.99992531538009644,
+        -0.99969351291656494,
+        -0.99974757432937622,
+        -1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 73600,
+      "componentType": 5126,
+      "count": 7800,
+      "max": [
+        0.17356491088867188,
+        0.057819943875074387
+      ],
+      "min": [
+        0.00720171257853508,
+        0.0098499460145831108
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 204240,
+      "componentType": 5125,
+      "count": 43488,
+      "max": [
+        7799
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Chris (https://sketchfab.com/christianrehm)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/happy-crust-dry-bread-character-8efdf2c4df22485a93cf14657111a1b1",
+      "title": "Happy Crust - Dry Bread Character"
+    },
+    "generator": "Sketchfab-5.33.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 378192,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 136000,
+      "byteOffset": 378192,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 408000,
+      "byteOffset": 514192,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 272000,
+      "byteOffset": 922192,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 1194192,
+      "uri": "scene.bin"
+    }
+  ],
+  "extensionsUsed": [
+    "KHR_materials_unlit"
+  ],
+  "images": [
+    {
+      "uri": "textures/Crust_MAT_baseColor.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": false,
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "name": "Crust_MAT",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicFactor": 0,
+        "roughnessFactor": 1
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Happy_Crust_Crust_MAT_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Outline_Crust_MAT_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 6,
+            "POSITION": 5,
+            "TANGENT": 7,
+            "TEXCOORD_0": 8
+          },
+          "indices": 9,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "d7aabfe067ef455cb28add7e3960b9dd.fbx"
+    },
+    {
+      "children": [
+        4,
+        6
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        5
+      ],
+      "name": "Happy_Crust"
+    },
+    {
+      "mesh": 0,
+      "name": "Happy_Crust_Crust_MAT_0"
+    },
+    {
+      "children": [
+        7
+      ],
+      "name": "Outline"
+    },
+    {
+      "mesh": 1,
+      "name": "Outline_Crust_MAT_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    }
+  ]
+}
+
